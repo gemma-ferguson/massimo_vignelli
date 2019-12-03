@@ -1,0 +1,138 @@
+/*--------- CSS RESET ---------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+body {
+    width: 70%;
+    max-width: 620px;
+    margin: auto; 
+    background-color: #fafafa;
+    color:#333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*----HEADING STYLING----*/
+
+h1, h2, h3 {
+    
+font-weight: normal;
+color: #D1D1CF;
+text-align: center;
+font-family:'Open Sans', sans-serif;
+}
+
+.head{
+    margin: 0;
+    width: 100%;
+    background-color: #1F6AE8;
+    padding: 1em 0;
+    top: 0;
+    left: 0;
+    
+}
+
+h1 {font-size: 2.827em;
+    margin-top: 2em;
+    margin-bottom: 0.1em;
+    color: #fff;
+    letter-spacing: 0.04em;
+    font-style: bold;
+    text-align: left;
+}
+
+h2 {font-size: 1.999em;
+    margin: 1em 0 1em 0;
+    text-align: left;
+}
+
+h3 {font-size: 1.414em;
+    margin-bottom: 1.5em;
+    font-style: italic;
+    padding: 1em 0 1em 0;
+}
+
+
+/*------LINK STYLE------*/
+
+a{
+    color: #8EC1FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+    border-bottom: 1px dotted;
+}
+
+p{font-family: 'Open Sans', sans-serif;}
+
+p, blockquote {
+    margin-bottom:1.5em;
+    line-height: 1.4;
+}
+
+blockquote {
+    font-size: 1.414em;
+    hanging-punctuation: first;
+    text-indent: -0.42em;
+    color: #47607F;
+}
+
+cite {
+    font-size: 0.9em;
+}
+
+/*-----NAVIGATION----*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #1F6AE8;
+    padding: 1em 0;
+    font-size: 0.75em;
+    opacity: 95%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*------UL-NAV------*/
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 39px;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color:black;
+}
+
+/*------------- FOOTER -------------*/
+
+footer {
+    text-align: center;
+    font-size: 0.717em;
+    padding: 2em 0 4em 0;
+}
