@@ -218,6 +218,18 @@ img:hover{
     margin-left: 20px;
     margin-top: -20px;
 }
+
+.textwrap1{
+    float: right;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.textwrap2{
+    float: right;
+    margin-left: 20px;
+    margin-top: 40px;
+}
 /*------------- FOOTER -------------*/
 
 footer {
