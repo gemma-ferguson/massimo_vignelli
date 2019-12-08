@@ -204,12 +204,12 @@ img{
     margin: 1em auto;
     max-width: 100%;
     padding: 1em;
-    align-content: center;
+    text-align: center;
     transition: transform 1s;
 }
 
 img:hover{
-    transform: scale(1.05);
+    transform: scale(1.2);
     transition: transform 1s;
 }
 
@@ -222,13 +222,23 @@ img:hover{
 .textwrap1{
     float: right;
     margin-left: 20px;
-    margin-top: -10px;
+    margin-top: 10px;
+    width: 22%;
+    height: 22%;
 }
 
 .textwrap2{
     float: right;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
+    width: 22%;
+    height: 22%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*------------- FOOTER -------------*/
 
