@@ -90,6 +90,7 @@ blockquote {
 
 cite {
     font-size: 0.9em;
+    text-align: center;
 }
 /*----icons-----*/
 
@@ -117,7 +118,8 @@ cite {
 .connections a:hover img{
     opacity: 1.0;
     border-bottom: none;
-    transition: all 0.3s ease-in-out
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2)
 }
 
 .top-link ul {
@@ -146,7 +148,8 @@ cite {
 .top-link a:hover img{
     opacity: 1.0;
     border-bottom: none;
-    transition: all 0.3s ease-in-out
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2)
 }
 
 .top-link {
@@ -197,12 +200,12 @@ nav a:hover {
     color:#78A4EE;
 }
 
-#introduction {margin-top: 3em}
-#the-style {margin-top: 3em}
-#examples {margin-top: 3em}
-#new-york-subway{margin-top: 3em}
-#conclusion {margin-top: 3em}
-#bibliography {margin-top: 3em}
+#introduction {margin-top: 2.5em}
+#the-style {margin-top: 2.5em}
+#examples {margin-top: 2.5em}
+#new-york-subway{margin-top: 2.5em}
+#conclusion {margin-top: 2.5em}
+#bibliography {margin-top: 2.5em}
 
 /*-----IMAGE STYLING----*/
 
@@ -212,12 +215,6 @@ img{
     max-width: 100%;
     padding: 1em;
     text-align: center;
-    transition: transform 1s;
-}
-
-img:hover{
-    transform: scale(1.2);
-    transition: transform 1s;
 }
 
 .textwrap{
@@ -240,12 +237,14 @@ img:hover{
     margin-top: 30px;
     width: 22%;
     height: 22%;
+   transform: none;
 }
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+   transform: none;
 }
 /*------------- FOOTER -------------*/
 
